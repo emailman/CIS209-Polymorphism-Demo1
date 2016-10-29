@@ -21,6 +21,7 @@ namespace CIS209_PolymorphismDemo1
         {
             if (tbxName.Text != "")
             {
+                // A bird is a type of pet
                 Pet bird1 = new Bird(tbxName.Text);
                 lblContainer.Text = "Would you like to see a nice " + bird1.Container +
                     " for " + bird1.Name + "?";
@@ -36,6 +37,7 @@ namespace CIS209_PolymorphismDemo1
         {
             if (tbxName.Text != "")
             {
+                // A fish is a type of pet
                 Pet fish1 = new Fish(tbxName.Text);
                 lblContainer.Text = "Would you like to see a nice " + fish1.Container +
                     " for " + fish1.Name + "?";
